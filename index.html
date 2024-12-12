@@ -88,8 +88,8 @@
             <h2>1. Problem Solving in Nature</h2>
             <p>Nature has inspired many algorithms. Some common approaches are:</p>
             <ul>
-                <li><strong>Recursion:</strong> This technique breaks a problem into smaller subproblems, like calculating Fibonacci numbers or finding paths in a maze.</li>
                 <li><strong>Iteration:</strong> Uses loops to perform repetitive tasks, such as calculating a factorial or iterating through a list of numbers.</li>
+                <li><strong>Recursion:</strong> This technique breaks a problem into smaller subproblems, like calculating Fibonacci numbers or finding paths in a maze.</li>
                 <li><strong>Backtracking:</strong> This method explores all possible solutions, eliminating those that don’t work. Classic problems include the N-Queens problem and Towers of Hanoi.</li>
             </ul>
         </div>
@@ -99,7 +99,15 @@
             <p>When designing algorithms, efficiency is a major concern, especially when working with large data sets. The two main factors to evaluate are:</p>
             <ul>
                 <li><strong>Time Efficiency:</strong> This tells us how quickly an algorithm completes its task.</li>
-                <li><strong>Space Efficiency:</strong> This refers to the amount of memory an algorithm uses during execution.</li>
+                <li><strong>Space Efficiency:</strong> This refers to the amount of extra memory an algorithm uses during execution.</li>
+            </ul>
+            <h3>Orders of Growth</h3>
+            <ul>
+                <li>O(1): Constant time, fastest. Example: Accessing an array element.</li>
+                <li>O(log n): Logarithmic, efficient for large data. Example: Binary search.</li>
+                <li>O(n): Linear, reasonable for moderate data sizes. Example: Scanning a list.</li>
+                <li>O(n^2): Quadratic, slows significantly for larger data. Example: Bubble sort.</li>
+                <li>O(2^n): Exponential, infeasible for large inputs. Example: Recursive Fibonacci.</li>
             </ul>
         </div>
 
@@ -108,8 +116,8 @@
             <p>To create efficient algorithms, some basic strategies are used:</p>
             <ul>
                 <li><strong>Divide and Conquer:</strong> A problem is broken into smaller subproblems, which are solved independently. Merge Sort is an example of this approach.</li>
-                <li><strong>Dynamic Programming:</strong> It avoids redundant calculations by storing intermediate results and reusing them.</li>
                 <li><strong>Backtracking:</strong> Here, we try all possibilities by building partial solutions, and we discard the ones that don’t work.</li>
+                <li><strong>Dynamic Programming:</strong> It avoids redundant calculations by storing intermediate results and reusing them.</li>
             </ul>
         </div>
 
@@ -117,9 +125,11 @@
             <h2>4. Trees and Hierarchical Data Structures</h2>
             <p>In many applications, data is best represented as a tree. Some popular tree structures are:</p>
             <ul>
+                <li><strong>Binary Trees:</strong> Each node has at most two children.</li>
                 <li><strong>Binary Search Tree (BST):</strong> A tree where each node has at most two children. It helps with efficient searching, inserting, and deleting.</li>
                 <li><strong>AVL Tree:</strong> A balanced binary search tree that keeps the height logarithmic to ensure fast operations.</li>
                 <li><strong>Red-Black Tree:</strong> A self-balancing tree used for faster searching and updating.</li>
+                <li><strong>M-way Search Tree :</strong> Balanced multi-way trees used in databases</li>
                 <li><strong>Trie:</strong> A tree that stores strings, making it ideal for tasks like autocomplete.</li>
             </ul>
         </div>
