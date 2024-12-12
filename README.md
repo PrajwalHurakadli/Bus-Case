@@ -1,2 +1,2 @@
-# Bus-Case
+# Bus-Case.github.io
 Business Case 
